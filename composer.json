@@ -1,0 +1,30 @@
+{
+    "name": "edgarmendozatech/amazonaffiliates",
+    "description": "Amazon Affiliates",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edgar Mendoza",
+            "email": "edgar16nm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "edgarmendozatech/mediaresource": "^1.1",
+        "edgarmendozatech/trackables": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EdgarMendozaTech\\AmazonAffiliates\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EdgarMendozaTech\\AmazonAffiliates\\AmazonAffiliatesServiceProvider"
+            ]
+        }
+    }
+}
